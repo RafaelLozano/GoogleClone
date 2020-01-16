@@ -1,0 +1,144 @@
+/* //Todo el html tendra este estilo */
+
+* {}
+
+body {
+    background-color: white;
+    /* Inicializar los estilos en 0 */
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .menuRight {
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .menuRight a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+.menuIcon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+.profilePicture {
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+main {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.mainLogo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.mainImage {
+    width: 272px;
+    height: 92px;
+}
+
+.mainInput {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+.mainInputContainer {
+    display: flex;
+    justify-content: center;
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+}
+
+main .mainInputContainer:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.mainInputSearch {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.searchIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.microIcon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.mainBottons {
+    display: flex;
+    justify-content: center;
+}
+
+.mainBottons button {
+    margin-right: 15px;
+    height: 36px;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #5f6368;
+    background-color: #f2f2f2;
+    border: 0;
+    padding: 0 15px;
+}
+
+.mainBottons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: ;
+    color: #222 box-shadow: 0 1px 1px #000001;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+}
